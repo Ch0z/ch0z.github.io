@@ -198,7 +198,7 @@ bundle exec jekyll s
 ```
 The site should be accessible on `http://127.0.0.1:4000`
 
-Once you're ready to publish commit to github :
+Once you're ready to publish, commit and push to github :
 ```bash
 git add .
 git commit -m "made some changes"
