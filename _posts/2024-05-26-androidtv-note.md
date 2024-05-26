@@ -16,15 +16,15 @@ Apk list :
 
 - Smarttube, Youtube but better :
 
-[![Smarttube](https://github.com/yuliskov/SmartTube/raw/master/smarttubetv/src/ststable/res/mipmap-nodpi/app_icon.png)](https://kutt.it/stn_stable)
+[![Smarttube](/smarttube-logo.png)](https://kutt.it/stn_stable)
 
 - Launcher Manager to change default launcher Android TV Launcher
 
-[![Launcher Manager](/launcher-manager.png)](https://xdaforums.com/attachments/lm-atv-1-0-4-apk.5498333/)
+[![Launcher Manager](/launcher-manager-logo.png)](https://xdaforums.com/attachments/lm-atv-1-0-4-apk.5498333/)
 
 - Aptoide TV, another store
 
-[![Aptoide TV](https://tv.aptoide.com/img/aptoidetv-logo.svg)](https://apkins.aptoide.com/AptoideTV-5.1.2.apk)
+[![Aptoide TV](/aptoidetv-logo.png)](https://apkins.aptoide.com/AptoideTV-5.1.2.apk)
 
 Playstore list :
 
