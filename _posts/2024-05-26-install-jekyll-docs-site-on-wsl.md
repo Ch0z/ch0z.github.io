@@ -1,16 +1,19 @@
 ---
 layout: post
-title:  "Install Jekyll on windows with WSL"
+title:  "Install Jekyll on Windows 11 with WSL"
 categories: wsl jekyll
 tags: homelab wsl jekyll
+media_subpath: /assets/medias/2024-05-26-install-jekyll-docs-site-on-wsl
+image:
+  path: /jekyll.png
 ---
 
-This the installation process to install and maintain a similar doc/note.
+This is the installation process to install and maintain a similar doc/note.
 
-First platform of choice for this one is Windows 11, I will be using WSL.
+Platform of choice for this tutorial is Windows 11, I will be using WSL.
 
 Prerequites :
-- WSL up and running
+- WSL up and running (not covered by this tutorial)
 - Ubuntu 22.04 base image
 - Github account
 - VScode (optionnal)
@@ -21,7 +24,7 @@ Prerequites :
 winget search ubuntu
 ```
 
-If you don't have winget, you can use Microsoft Store it's working or you can download it [here](https://github.com/microsoft/winget-cli/releases)
+If you don't have winget, you can use Microsoft Store or you can download it [here](https://github.com/microsoft/winget-cli/releases)
 
 You should have something similar to this :
 ```
@@ -84,7 +87,7 @@ wsl --import Jekyll D:\Users\<username>\Documents\WSL\jekyll\ D:\Users\<username
 ```powershell
 wsl -d Jekyll
 ```
-If you're logged as root do this
+> If you're logged as root do this
 ```bash
 nano /etc/wsl.conf
 ```
@@ -93,6 +96,13 @@ add this at this end of the file, replace username by yours
 [user]
 default = username
 ```
+Run powershell command
+```powershell
+wsl --shutdown
+wsl -d Jekyll
+```
+You should be on your user.
+{: .prompt-warning }
 
 ### Installing rbenv
 

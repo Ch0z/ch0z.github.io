@@ -4,6 +4,8 @@ title:  "Android TV note"
 categories: androidtv
 tags: homelab android
 media_subpath: /assets/medias/2024-05-26-androidtv-note
+image:
+  path: /google-tv.png
 ---
 
 Short code for Downloader AFTVnews is 752935.
