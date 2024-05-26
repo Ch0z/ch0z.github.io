@@ -206,5 +206,5 @@ git commit -m "made some changes"
 git push
 ```
 
-> Every type you use `git push` the site is published on *username*.github.io by the github actions.
+> Every time you use `git push` the site is published on *username*.github.io by the github actions.
 {: .prompt-warning }
