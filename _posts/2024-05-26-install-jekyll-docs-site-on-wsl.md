@@ -104,6 +104,9 @@ wsl -d Jekyll
 You should be on your user.
 {: .prompt-warning }
 
+
+## Installing Ruby
+
 ### Installing rbenv
 
 [Source](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-22-04)
