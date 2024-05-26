@@ -147,6 +147,7 @@ gem install jekyll bundler
 ```
 
 ## Create a SSH Key
+On the Jekyll WSL instance :
 1. Generate a new key with your github mail account
 ```bash
 ssh-keygen -t ed25519 -C "youremail@example.com"
