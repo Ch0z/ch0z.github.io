@@ -49,3 +49,9 @@ Playstore list :
 - Key mapper
 
 [![Key mapper](https://play-lh.googleusercontent.com/dibaRTgzQsRE8vg9e7nos8QTbuzzeuMvHqmg4xhuUtBuzQlR9bdCCLZK12KpG9LCDcU=w416-h235)](https://play.google.com/store/apps/details?id=io.github.sds100.keymapper)
+
+- Emby
+
+[![Emby](https://play-lh.googleusercontent.com/TVVN_yLf1TetiwIPIs0suyWLAT2nJ49LQ9k2rvnI1klEw2ESZueiPlG_octyFrPNf5cX=w416-h235)](https://play.google.com/store/apps/details?id=tv.emby.embyatv)
+
+
