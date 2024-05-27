@@ -210,7 +210,7 @@ If you want to see a live version of your site in local you can use the followin
 ```bash
 bundle exec jekyll s
 ```
-The site should be accessible at [http://127.0.0.1:4000`](http://127.0.0.1:4000`)
+The site should be accessible at [http://127.0.0.1:4000](http://127.0.0.1:4000)
 
 Once you're ready to publish, commit and push to GitHub :
 ```bash
