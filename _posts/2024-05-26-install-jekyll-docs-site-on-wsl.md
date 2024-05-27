@@ -15,8 +15,8 @@ Platform of choice for this tutorial is Windows 11, I will be using WSL.
 Prerequites :
 - WSL up and running (not covered by this tutorial)
 - Ubuntu 22.04 base image
-- Github account
-- VScode (optionnal)
+- GitHub account
+- VScode (optional)
 
 ## Installing ubuntu 22.04 on WSL
 
@@ -68,11 +68,11 @@ sudo apt update && sudo apt upgrade
 ```
 
 
-### Optionnal creation of a « template » from ubuntu 22.04
+### Optional creation of a « template » from ubuntu 22.04
 
 Now we have a running WSL instance of ubuntu 22.04, I prefer to archive it and use it as a template.
 
-Step :
+Steps :
 1. Create a folder named WSL in Documents for example
 2. Create a folder named base-image in WSL folder
 3. Export it as a tar file : 
@@ -91,7 +91,7 @@ wsl -d Jekyll
 ```bash
 nano /etc/wsl.conf
 ```
-add this at this end of the file, replace username by yours
+Add this at the end of the file, replace username by yours
 ```text
 [user]
 default = username
@@ -128,7 +128,7 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 ```bash
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 ```
-5. Apply the changes you made to your ~/.bashrc file to your current shell session:
+5. Apply the changes made to your ~/.bashrc file to your current shell session :
 ```bash
 source ~/.bashrc
 ```
@@ -172,7 +172,7 @@ cat ~/.ssh/id_ed25519.pub
 ```
 
 ## Create a new repo with Chirpy Starter
-**You must have a github account**
+**You need to have a GitHub account**
 
 1.Create a new repo using [chirpy-starter](https://github.com/new?template_name=chirpy-starter&template_owner=cotes2020) template, name it *githubusername*.github.io and make it public.
 2. On github go to Settings > Deploy Keys > Add deploy key :
@@ -204,20 +204,20 @@ git config --global user.email "your-github-email"
 
 Read the chirpy [docs](https://chirpy.cotes.page/) you can now make some changes, write a posts, ...
 
-Using for example vscode with the commande `code .` in the repo folder
+Using for example VS Code with the commande `code .` in the repo folder
 
 If you want to see a live version of your site in local you can use the following command in the repo folder inside the repo folder
 ```bash
 bundle exec jekyll s
 ```
-The site should be accessible on `http://127.0.0.1:4000`
+The site should be accessible at [http://127.0.0.1:4000`](http://127.0.0.1:4000`)
 
-Once you're ready to publish, commit and push to github :
+Once you're ready to publish, commit and push to GitHub :
 ```bash
 git add .
 git commit -m "made some changes"
 git push
 ```
 
-> Every time you use `git push` the site is published on *username*.github.io by the github actions.
+> Every time you use `git push` the site is published on *username*.github.io by the GitHub actions.
 {: .prompt-warning }
