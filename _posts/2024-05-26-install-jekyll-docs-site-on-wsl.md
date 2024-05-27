@@ -70,7 +70,7 @@ sudo apt update && sudo apt upgrade
 
 ### Optionnal creation of a « template » from ubuntu 22.04
 
-Now we have a running WSL instance of ubuntu 22.04, I prefer to archive it and using it as a template.
+Now we have a running WSL instance of ubuntu 22.04, I prefer to archive it and use it as a template.
 
 Step :
 1. Create a folder named WSL in Documents for example
